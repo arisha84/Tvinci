@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvChannelName"
+        android:layout_width="fill_parent"
+        android:layout_height="72dp"
+        android:background="@drawable/title_bg"
+        android:textColor="@android:color/white"
+        android:textSize="40dp" 
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:ellipsize="end"
+        android:singleLine="true"/>
+ 
+    <ListView
+        android:id="@+id/ChannlsList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"/>
+    
+        <!-- android:listSelector="@drawable/list_selector" --> 
+ 
+</LinearLayout>
